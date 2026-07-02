@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { GitFork, X, Mail, Brain, Zap, Terminal, Gamepad2 } from 'lucide-react'
+import { GitFork, X, Mail, Brain, Zap, Terminal, Code2 } from 'lucide-react'
 
 const socialLinks = [
   { href: 'https://github.com/masonvickery', label: 'GitHub', icon: GitFork },
@@ -11,7 +11,6 @@ const footerNav = [
   { path: '/', label: 'Home' },
   { path: '/about', label: 'About' },
   { path: '/ai-setup', label: 'AI Setup' },
-  { path: '/pong', label: 'Pong' },
 ]
 
 export default function Footer() {
@@ -77,7 +76,7 @@ export default function Footer() {
                 LLM Systems
               </li>
               <li className="flex items-center gap-3 text-sm text-slate-600 dark:text-slate-400">
-                <Gamepad2 className="h-5 w-5 text-amber-500 shrink-0" aria-hidden="true" />
+                <Code2 className="h-5 w-5 text-amber-500 shrink-0" aria-hidden="true" />
                 Creative Coding
               </li>
             </ul>

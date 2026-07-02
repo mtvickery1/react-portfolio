@@ -1,12 +1,11 @@
 import { Link, useLocation } from 'react-router-dom'
-import { Brain, Zap, Terminal, Gamepad2, Menu, X, Sun, Moon } from 'lucide-react'
+import { Brain, Zap, Terminal, Menu, X, Sun, Moon } from 'lucide-react'
 import { useState, useEffect } from 'react'
 
 const navItems = [
   { path: '/', label: 'Home', icon: Brain },
   { path: '/about', label: 'About', icon: Zap },
   { path: '/ai-setup', label: 'AI Setup', icon: Terminal },
-  { path: '/pong', label: 'Pong', icon: Gamepad2 },
 ]
 
 export default function Navbar() {

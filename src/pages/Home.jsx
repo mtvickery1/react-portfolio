@@ -3,7 +3,7 @@ import { Brain, Zap, Terminal, ArrowRight } from 'lucide-react'
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-white dark:bg-dark-950">
+    <div className="min-h-screen bg-white dark:bg-dark-950 pt-16">
       <section className="relative flex flex-col items-center text-center space-y-8 mb-24 sm:mb-32">
         <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary-100 dark:bg-primary-900/30 text-primary-700 dark:text-primary-300 text-sm font-medium">
           <span className="relative flex h-2 w-2">
@@ -13,7 +13,7 @@ export default function Home() {
           Analytics Engineer & AI Builder
         </div>
         
-        <h1 className="text-4xl sm:text-6xl lg:text-7xl font-bold tracking-tight">
+        <h1 className="text-4xl sm:text-6xl lg:text-7xl font-bold tracking-tight max-w-4xl">
           I build <span className="gradient-text">AI infrastructure</span> <br /> that works <span className="italic font-light">for</span> you.
         </h1>
         
